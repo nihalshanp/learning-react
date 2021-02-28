@@ -3,11 +3,12 @@ import logo from './logo.svg';
 import './App.css';
 import Func from './Component/func'
 import Class from './Component/class'
+import Message from './Component/message'
 class App extends Component {
   render(){
   return (
     <div className="App">
-     <h1> Func <br/> ---------</h1>
+     {/*<h1> Func <br/> ---------</h1>
       <Func name="Nihal" age="13">
         <p>I like to play Football</p>
       </Func>
@@ -20,7 +21,8 @@ class App extends Component {
       <h1> Class <br/> ---------</h1>
       <Class name="Nihal" age="13"/>
       <Class name="Shan" age="18"/>
-      <Class name="p" age="20"/>*/
+      <Class name="p" age="20"/>*/}
+      <Message/>
     </div>
   );
   }
