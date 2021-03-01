@@ -1,9 +1,10 @@
 import React, { Component }  from 'react'
 import logo from './logo.svg';
 import './App.css';
-import Func from './Component/func'
-import Class from './Component/class'
-import Message from './Component/message'
+// import Func from './Component/func'
+// import Class from './Component/class'
+// import Message from './Component/message'
+import Counter from './Component/Counter/Counter'
 class App extends Component {
   render(){
   return (
