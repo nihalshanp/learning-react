@@ -21,8 +21,8 @@ class App extends Component {
       <h1> Class <br/> ---------</h1>
       <Class name="Nihal" age="13"/>
       <Class name="Shan" age="18"/>
-      <Class name="p" age="20"/>*/}
-      {/*<Message/>*/}
+      <Class name="p" age="20"/>
+      <Message/>*/}
       
     </div>
   );
