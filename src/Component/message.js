@@ -7,7 +7,7 @@ export default class Message extends Component {
   constructor(){
     super()
     this.state = {
-      message : 'Welcom visitor'
+      message : 'Welcom Nihal shan.p'
     }
   
 }

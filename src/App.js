@@ -22,7 +22,8 @@ class App extends Component {
       <Class name="Nihal" age="13"/>
       <Class name="Shan" age="18"/>
       <Class name="p" age="20"/>*/}
-      <Message/>
+      {/*<Message/>*/}
+      
     </div>
   );
   }
