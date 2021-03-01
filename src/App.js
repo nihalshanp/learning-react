@@ -4,7 +4,9 @@ import './App.css';
 //import Func from './Component/func'
 //import Class from './Component/class'
 // import Message from './Component/message'
-import Counter from './Component/Counter/Counter'
+//import Counter from './Component/Counter/Counter'
+import FuncClick from './Component/FuncClick'
+import ClassClick from './Component/ClassClick'
 class App extends Component {
   render(){
   return (
@@ -21,9 +23,10 @@ class App extends Component {
       <Class name="Nihal" age="13"/>
       <Class name="Shan" age="18"/>
       <Class name="p" age="20"/>
-      <Message/>*/}
       <Counter/>
-      
+      <Message/>*/}
+      <FuncClick/>
+      <ClassClick/>
     </div>
   );
   }
