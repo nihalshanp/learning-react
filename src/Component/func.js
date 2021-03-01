@@ -1,10 +1,11 @@
 import React from 'react'
 
 const Hello = props => {
+  const {name, age} = props
   // jsx
   return (
     <div>
-      <h4> I'm {props.name}. My age is {props.age}</h4>
+      <h4> I'm {name}. My age is {age}</h4>
       {props.children}
     </div>
   )

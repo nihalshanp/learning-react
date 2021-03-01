@@ -1,9 +1,6 @@
-import React, {
-  Component
-} from 'react'
-import PropTypes from 'prop-types'
+import React, { Component } from 'react'
 
-export default class Message extends Component {
+class Message extends Component {
   constructor(){
     super()
     this.state = {
@@ -25,3 +22,4 @@ changeMessage(){
     )
   }
 }
+export default Message
