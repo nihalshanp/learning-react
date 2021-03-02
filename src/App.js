@@ -9,7 +9,8 @@ import './App.css';
 // import ClassClick from './Component/ClassClick'
 // import Child from './Component/ChildComponent'
 // import Parent from './Component/ParentComponent'
-import UserGreeting from './Component/UserGreeting'
+//import UserGreeting from './Component/UserGreeting'
+import NameList from './Component/NameList'
 class App extends Component {
   render(){
   return (
@@ -30,8 +31,9 @@ class App extends Component {
       <FuncClick/>
       <ClassClick/>
       <Parent/>
-      <Message/>*/}
       <UserGreeting/>
+      <Message/>*/}
+      <NameList/>
     </div>
   );
   }
