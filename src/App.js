@@ -4,13 +4,16 @@ import './App.css';
 //import Func from './Component/func'
 //import Class from './Component/class'
 // import Message from './Component/message'
-//import Counter from './Component/Counter/Counter'
-import FuncClick from './Component/FuncClick'
-import ClassClick from './Component/ClassClick'
+// import Counter from './Component/Counter/Counter'
+// import FuncClick from './Component/FuncClick'
+// import ClassClick from './Component/ClassClick'
+// import Child from './Component/ChildComponent'
+import Parent from './Component/ParentComponent'
 class App extends Component {
   render(){
   return (
     <div className="App">
+    <Parent/>
      {/*<h1> Func <br/> ---------</h1>
       <Func name="Nihal" age="13">
         <p>I like to play Football</p>
@@ -24,9 +27,9 @@ class App extends Component {
       <Class name="Shan" age="18"/>
       <Class name="p" age="20"/>
       <Counter/>
-      <Message/>*/}
       <FuncClick/>
       <ClassClick/>
+      <Message/>*/}
     </div>
   );
   }
