@@ -4,7 +4,8 @@ import Person from './Person'
 const NameList = props => {
     // let names = ['Nhal', 'shan','p']
     // let name = ['p','Shan','Nihal']
-    // let nameList = name.map(name => <h1>{name}</h1>);
+    // let nameList = name.map(name => <h1>{name}</h1>)
+    const names = ['Nihal', 'Shan', 'P'] 
     let person = [{
         id: 1,
         name: 'Nihal',
@@ -24,7 +25,7 @@ const NameList = props => {
             skill: 'Flutter'
         },
     ]
-    let personList = person.map(person => <Person key={person.id} person={person}/>)
+    let nameList = names.map((name, index) =><h1 key={index} > {index} {name}</h1>)
     return (
         <div>
     {/*<h1>{names[0]}</h1>
@@ -36,7 +37,7 @@ const NameList = props => {
         }
         <h1>------------</h1>*/}
         {/*{nameList}*/}
-        {personList}
+        {nameList}
         </div>
     )
 }
