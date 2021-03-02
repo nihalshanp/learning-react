@@ -10,7 +10,11 @@ import './App.css';
 // import Child from './Component/ChildComponent'
 // import Parent from './Component/ParentComponent'
 //import UserGreeting from './Component/UserGreeting'
-import NameList from './Component/NameList'
+//import NameList from './Component/NameList'
+import Stylesheet from './Component/Stylesheet'
+import Inline from './Component/Inline'
+import './appStyle.css'
+import style from './appStyle.module.css'
 class App extends Component {
   render(){
   return (
@@ -32,8 +36,13 @@ class App extends Component {
       <ClassClick/>
       <Parent/>
       <UserGreeting/>
-      <Message/>*/}
       <NameList/>
+      <Message/>*/}
+      
+      {/*<Stylesheet primary={true}/>
+      <Inline/>*/}
+      <h1 className='err'>Error</h1>
+      <h1 className={style.success}>Success</h1>
     </div>
   );
   }
