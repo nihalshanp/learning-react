@@ -24,7 +24,7 @@ const NameList = props => {
             skill: 'Flutter'
         },
     ]
-    let personList = person.map(person => <Person person={person}/>)
+    let personList = person.map(person => <Person key={person.id} person={person}/>)
     return (
         <div>
     {/*<h1>{names[0]}</h1>
