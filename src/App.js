@@ -1,13 +1,13 @@
 import React, { Component }  from 'react'
 import './App.css';
-import Form from './Component/Form'
+import LifecycleA from './Component/LifecycleA' 
 
 
 class App extends Component {
   render(){
   return (
     <div className="App">
-        <Form/>
+        <LifecycleA/>
     </div>
   );
   }
