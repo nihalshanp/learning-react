@@ -19,12 +19,32 @@ export default class LifecycleA extends Component {
         console.log('LifecycleA componentDidMount');
     }
     
+    shouldComponentUpdate(){
+        console.log('LifecycleA shouldComponentUpdate');
+        return true
+    }
+    
+    getSnapshotBeforeUpdate(prevProps, prevState){
+        console.log('LifecycleA getSnapshotBeforeUpdate');
+        return null
+    }
+    
+    componentDidUpdate(){
+        console.log('LifecycleA componentDidUpdate');
+    }
+    
+    chageState= () => {
+        this.setState({
+            name: 'Button Clicked'
+        })
+    }
+    
     render() {
         console.log('LifecycleA render');
         return (
             <div>
-                LifecycleA
-                <LifecycleB/>
+                <button onClick={this.chageState}>Click me</button>
+                {this.state.name}
                 <LifecycleB/>
             </div>
         )
