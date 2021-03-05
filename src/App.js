@@ -1,14 +1,12 @@
 import React, { Component }  from 'react'
 import './App.css';
-import FragmentDemo from './Component/FragmentDemo'
-import Table from './Component/Tables'
+import ParComp from './Component/ParComp'
 
 class App extends Component {
   render(){
   return (
     <div className="App">
-        {/*<FragmentDemo/>*/}
-        <Table/>
+        <ParComp/>
     </div>
   );
   }
