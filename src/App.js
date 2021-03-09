@@ -1,12 +1,12 @@
 import React, { Component }  from 'react'
 import './App.css';
-import ParComp from './Component/ParComp'
+import RefDemo from './Component/RefDemo'
 
 class App extends Component {
   render(){
   return (
     <div className="App">
-        <ParComp/>
+        <RefDemo/>
     </div>
   );
   }
