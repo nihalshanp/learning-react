@@ -4,8 +4,8 @@ import PureComp from './PureComp'
 
 
 
-export default class ParComp extends Component {
-    
+class ParComp extends Component {
+
     constructor(){
         super()
         this.state = {
@@ -32,3 +32,6 @@ export default class ParComp extends Component {
         )
     }
 }
+
+
+export default ParComp;
