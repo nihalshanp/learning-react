@@ -2,15 +2,13 @@ import React, { Component }  from 'react'
 import './App.css';
 //import RefDemo from './Component/RefDemo'
 //import ParInp from './Component/ParInp'
-import FRRefPar from './Component/FRRefPar'
+import Portals from './Component/PortalDemo'
 
 class App extends Component {
   render(){
   return (
     <div className="App">
-        {/*<RefDemo/>
-        <ParInp/>*/}
-        <FRRefPar/>
+        <Portals/>
     </div>
   );
   }
