@@ -1,14 +1,21 @@
 import React, { Component }  from 'react'
 import './App.css';
-//import RefDemo from './Component/RefDemo'
-//import ParInp from './Component/ParInp'
-import Portals from './Component/PortalDemo'
+import Hero from './Component/Hero'
+import Err from './Component/Error'
 
 class App extends Component {
   render(){
   return (
     <div className="App">
-        <Portals/>
+        <Err>
+            <Hero heroName='Superman'/>
+        </Err>
+        <Err>
+            <Hero heroName='Batman'/>
+        </Err>
+        <Err>
+            <Hero heroName='Joker'/>
+        </Err>
     </div>
   );
   }
