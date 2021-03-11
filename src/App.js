@@ -1,21 +1,14 @@
 import React, { Component }  from 'react'
 import './App.css';
-import Hero from './Component/Hero'
-import Err from './Component/Error'
+import ClickCounter from './Component/ClickCounter'
+import HoverCounter from './Component/HoverCounter'
 
 class App extends Component {
   render(){
   return (
     <div className="App">
-        <Err>
-            <Hero heroName='Superman'/>
-        </Err>
-        <Err>
-            <Hero heroName='Batman'/>
-        </Err>
-        <Err>
-            <Hero heroName='Joker'/>
-        </Err>
+        <ClickCounter/>
+        <HoverCounter/>
     </div>
   );
   }
