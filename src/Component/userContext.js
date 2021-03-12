@@ -9,3 +9,5 @@ export {
     UserConsumer,
     UserProvider
 }
+
+export default UserContext
